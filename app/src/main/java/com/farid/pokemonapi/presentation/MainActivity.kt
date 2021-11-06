@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
                 if (str.isEmpty()) {
                     str = "Name: ${it?.stateName} Value: ${it?.stateValue}"
                 } else {
-                    str += "\t Name: ${it?.stateName} Value: ${it?.stateValue}"
+                    str += "\n Name: ${it?.stateName} Value: ${it?.stateValue}"
                 }
             }
             binding?.tvPokemonStatisticsTitle?.visibility = View.VISIBLE
